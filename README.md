@@ -1,5 +1,7 @@
-## API Rest para consulta de cidades do Brasil com Spring Boot
-
+<h1 align="center">
+    Brazilian_Cities_API
+</h1>
+<p align="center">🚀 API Rest para consulta de cidades do Brasil com Spring Boot, projeto desenvolvido em LiveCoding pela Digital Innovation One</p>
 ## Requirements
 
 * Linux
@@ -144,20 +146,3 @@ cp ~/workspace/sql-paises-estados-cidades/PostgreSQL/cidade.sql src/main/resourc
 + https://github.com/travis-ci/travis.rb#readme
 
 + https://docs.travis-ci.com/user/tutorial/
-
-#### extra
-
-+ https://docs.travis-ci.com/user/conditional-builds-stages-jobs/
-+ https://docs.travis-ci.com/user/deployment-v2/conditional
-
-+ [Heroku Deployment](https://docs.travis-ci.com/user/deployment/heroku/)
-
-
-```roomsql
-
-```
-
-SELECT cidade.id, cidade.nome, cidade.lat_lon 
-FROM cidade 
-WHERE earth_box(ll_to_earth(-21.95840072631836, -47.98820114135742), 30000) @> ll_to_earth(cidade.lat_lon[0],cidade.lat_lon[1]) 
-AND earth_distance(ll_to_earth(-21.95840072631836, -47.98820114135742), ll_to_earth(cidade.lat_lon[0],cidade.lat_lon[1])) < 30000;
