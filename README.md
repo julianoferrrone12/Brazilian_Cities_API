@@ -2,7 +2,8 @@
     Brazilian_Cities_API
 </h1>
 <p align="center">🚀 API Rest para consulta de cidades do Brasil com Spring Boot, projeto desenvolvido em LiveCoding pela Digital Innovation One</p>
-## Requirements
+
+## ✅Requirements
 
 * Linux
 * Git
