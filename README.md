@@ -147,3 +147,7 @@ cp ~/workspace/sql-paises-estados-cidades/PostgreSQL/cidade.sql src/main/resourc
 + https://github.com/travis-ci/travis.rb#readme
 
 + https://docs.travis-ci.com/user/tutorial/
+
+## 🚩 The End
+
+🌟Antes de sair desse repositório não esqueça de deixar sua "star" ajuda muito e não custa nada!! 🌟
